@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Gaming Logos Portfolio</title>
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet" />
+  <style>
+    /* Global Styles */
+    body {
+      background: radial-gradient(circle at center, #222, #000);
+      margin: 0;
+      padding: 20px;
+      color: white;
+      font-family: Arial, sans-serif;
+      position: relative;
+    }
+    
+    /* Brand Logo Positioned Top Left */
+    .brand-logo {
+      position: absolute;
+      top: 20px;
+      left: 20px;
+    }
+    
+    .brand-logo img {
+      height: 50px;
+      width: auto;
+    }
+    
+    /* Social Links Positioned Top Right */
+    .social-links {
+      position: absolute;
+      top: 20px;
+      right: 20px;
+    }
+    
+    .social-links a {
+      color: #00ffcc;
+      text-decoration: none;
+      font-weight: bold;
+      margin-left: 15px;
+      font-size: 1.1rem;
+    }
+    
+    .social-links a:hover {
+      text-decoration: underline;
+    }
+    
+    .container {
+      max-width: 1200px;
+      margin: 80px auto 0;
+      padding: 20px;
+    }
+    
+    h1 {
+      font-family: 'Orbitron', sans-serif;
+      text-align: center;
+      margin-bottom: 20px;
+      font-size: 2.5rem;
+      text-shadow: 0 0 10px white;
+    }
+    
+    p {
+      text-align: center;
+      font-size: 1.5rem;
+      color: #00ffcc;
+      margin-bottom: 40px;
+    }
+    
+    /* Logo Grid */
+    .logo-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(170px, 1fr));
+      gap: 20px;
+    }
+    
+    /* Logo Box Styles */
+    .logo {
+      width: 170px;
+      height: 170px;
+      border-radius: 50%;
+      background-color: black;
+      padding: 5px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+      overflow: hidden;
+      margin: auto;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+      animation: fadeIn 0.5s ease-out;
+    }
+    
+    /* White Circular Frame */
+    .logo-inner {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background-color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 5px;
+    }
+    
+    /* Logo Image */
+    .logo-inner img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+      border-radius: 50%;
+    }
+    
+    .logo:hover {
+      transform: scale(1.1);
+      box-shadow: 0 8px 20px rgba(0,0,0,0.5);
+    }
+    
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: scale(0.9);
+      }
+      to {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+    
+    /* Responsive Media Queries */
+    @media (max-width: 768px) {
+      .logo {
+        width: 150px;
+        height: 150px;
+      }
+    }
+    
+    @media (max-width: 480px) {
+      .logo {
+        width: 130px;
+        height: 130px;
+      }
+      .logo-grid {
+        gap: 15px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <!-- Brand Logo Top Left -->
+  <div class="brand-logo">
+    <img src="./assest/logo's/The Stabler.jpeg" alt="Brand Logo">
+  </div>
+  
+  <!-- Social Links Top Right -->
+  <div class="social-links">
+    <a href="https://chat.whatsapp.com/Ej2B7jvq9cC9G9sPjyGPko">Join WhatsApp</a>
+    <a href="https://www.tiktok.com/@greatstabler?lang=en">Follow on TikTok</a>
+  </div>
+  
+  <div class="container">
+    <h1>Gaming Logos Portfolio</h1>
+    <p>Crafting Epic Identities for Gamers</p>
+    
+    <!-- Logo Grid for 20 Logos -->
+    <div class="logo-grid">
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-bold-and-aggressive-esports-style-logo_dU33oUTVR0GxBK2yxVUQpg_9c0wfrO6TH2onQ5IWqQ2UA.jpeg" alt="Logo 1">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-bold-and-aggressive-esports-style-logo_AVAOPn4BTTaExokilRFSQQ_9c0wfrO6TH2onQ5IWqQ2UA.jpeg" alt="Logo 2">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-bold-and-aggressive-esports-style-logo_tpLchamEQ220KMHq7Xes5A_9c0wfrO6TH2onQ5IWqQ2UA.jpeg" alt="Logo 3">
+        </div>
+      </div>
+      <!-- Repeat for logos 4 to 20 -->
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-bold-and-dynamic-esports-logo-featurin_E8FbOcjqStGfvaManjt-Pg_ZlOhd1D-R7WQ2k6tRkScmQ.jpeg" alt="Logo 4">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-bold-and-professional-esports-style-lo_-S7hrBeNT8uf2sfbi89vxA_It2gLWpZSh6PP7E_3izTGQ.jpeg" alt="Logo 5">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-dark-and-aggressive-esports-logo-for-f_SKjktA_4T7-WzAocX-mGow_XRqnhemOSTqllG1XQarFFA.jpeg" alt="Logo 6">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-fierce-stylized-phoenix-logo-with-shar_4qCxn6wfRwqMCjAE5SjT-w_yzjX6AZBQIaLLuAABheI5Q.jpeg" alt="Logo 7">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-stylized-wolf-head-with-sharp-edges-an_frlBrDgaTn-1Ihgu5Piwvg_mzeaObGARUKIgv4aCuK8pw.jpeg" alt="Logo 8">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-fierce-stylized-phoenix-logo-with-shar_W0vujtF8QkK8ZDEL46u1pQ_-JIlQ_oURweCvv-eT6Zgow.jpeg" alt="Logo 9">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-fierce-stylized-phoenix-logo-with-shar_r-Z8Lha4RhiZXRlv1kKFeQ_t_jgwIJaR1eJxAXpF4WfpA.jpeg" alt="Logo 10">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/an-illustration-of-a-fierce-stylized-wol_v2qtJ4u5SGOgc9qrCa_V1w_mzeaObGARUKIgv4aCuK8pw.jpeg" alt="Logo 11">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-high-quality-professional-gaming-logo-_Tk0vWAniSrqZx-bi8Vnswg_yiqX6USyQQqi6fuIgn2clg.jpeg" alt="Logo 12">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-fierce-stylized-black-panther-head-wit_zGWutKSTR0enf_Xea1Xkfg__uUNucstSUOo1iYdVHDrUA.jpeg" alt="Logo 13">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/in-a-sleek-modern-illustration-a-fierce-_qTyxERRVSTqOtp67V1JsPg_9sAcBD8qSNy2Fle70W3AqQ.jpeg" alt="Logo 14">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/in-a-stunning-digital-art-illustration-a_nM5nhBtFSPCzDyC-mQyW0g_r_K613x6QeO34OKsfoe9Mg.jpeg" alt="Logo 15">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/in-a-modern-esports-inspired-illustratio_h5_-jiX0TTiraAc11n7hLA_r_K613x6QeO34OKsfoe9Mg.jpeg" alt="Logo 16">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-fierce-stylized-phoenix-logo-with-shar_QPZnqjL2TcuDcHs6hKb_Rg_1QTYI--1TTiB8UZ4etyvTw.jpeg" alt="Logo 17">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-fierce-stylized-wolf-head-logo-with-sh_jA-Wtf1WQF6cKh_KsW2NCw_HoGRB-3XTxCFFxyF-S0hJA.jpeg" alt="Logo 18">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/a-fierce-stylized-phoenix-logo-with-shar_pzjsIfLvTYa10zP4sYQOwQ_t_jgwIJaR1eJxAXpF4WfpA.jpeg" alt="Logo 19">
+        </div>
+      </div>
+      <div class="logo">
+        <div class="logo-inner">
+          <img src="./assest/logo's/an-illustration-of-the-esports-logo-the-_sz4J_3erQzqjj-udZlgPnQ_r1O6typoQoijB5OY9BIZwQ.jpeg" alt="Logo 20">
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
